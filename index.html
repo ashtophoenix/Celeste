@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Pompiere&family=Quintessential&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap"
       rel="stylesheet"
     />
-    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Celeste App</title>
   </head>
   <body>
@@ -36,9 +36,9 @@
           <div>
             <h1 class="weather-app-city" id="city"></h1>
             <p class="weather-app-details">
-              Tuesday 20:33, scattered clouds
+             <span id="time"> </span>,<span id="description"> </span>
               <br />
-              Humidity: <strong>66%</strong>, Wind: <strong>3.13 km/h</strong>
+              Humidity: <strong id="humidity"></strong>, Wind: <strong id="wind-speed"></strong>
             </p>
           </div>
           <div class="weather-app-temperature-container">
