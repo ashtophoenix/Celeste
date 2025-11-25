@@ -33,6 +33,7 @@ body {
   padding: 10px 30px;
   font-size: 16px;
   color: #fff4a1;
+  max-width: 600px;
 }
 .search-form-button {
   background-color: #fff4a1;
@@ -42,6 +43,7 @@ body {
   color: #92b9d4;
   margin-left: 5px;
   font-size: 16px;
+  max-width: 600px;
 }
 
 main {
@@ -94,4 +96,31 @@ footer {
 }
 a {
   color: #f89deb;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  color: #698dee;
+  margin-bottom: 10px;
+}
+.weather-forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #f89deb;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
 }
